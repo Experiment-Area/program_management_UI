@@ -1,0 +1,11 @@
+.text-field.error{
+    -fx-border-color: red;
+}
+
+.check-box.error{
+    -fx-text-fill: red;
+}
+
+.radio-button.error{
+    -fx-text-fill: red;
+}
