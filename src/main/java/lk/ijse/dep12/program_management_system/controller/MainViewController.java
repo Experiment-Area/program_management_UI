@@ -96,7 +96,7 @@ public class MainViewController {
             validate = false;
         }
 
-        if (!shortCode.isEmpty() && (txtShortCode.getText().strip().length() < 2 || txtShortCode.getText().strip().length() > 5)) {
+        if (!shortCode.isEmpty() && (txtShortCode.getText().strip().length() < 2 || txtShortCode.getText().strip().length() > 5) || shortCode.isBlank()) {
             txtShortCode.getStyleClass().add("error");
             txtShortCode.requestFocus();
             validate = false;
